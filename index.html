@@ -125,6 +125,8 @@
       border-radius: 50%;
       object-fit: cover;
       z-index: 2;
+      background: url("resources/psy_preload_profile_picture.svg") center center no-repeat;
+      background-size: contain;
     }
 
     h1 {
@@ -219,12 +221,13 @@
   <div class="card">
     <div class="profile-pic-wrapper">
       <div class="profile-border"></div>
-      <img 
-        class="profile-pic"
-        alt="Vitória Lisboa"
-        src="resources/profile_picture.webp"
-        width="120"
-        height="120" />
+        <img 
+          class="profile-pic"
+          alt="Vitória Lisboa"
+          src="resources/profile_picture.webp"
+          width="120"
+          height="120"
+          loading="lazy" />
     </div>
     <h1>Vitória Lisboa</h1>
     <p class="quote">Psicóloga Clínica e da Saúde</p>
