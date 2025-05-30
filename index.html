@@ -3,8 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="format-detection" content="telephone=no"> 
-  <title>Vitória Lisboa</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Atendimento psicológico clínico e da saúde com Vitória Lisboa. Agende sua consulta">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Vitória Lisboa">
+  <meta property="og:description" content="Atendimento psicológico clínico e da saúde com Vitória Lisboa. Agende sua consulta">
+  <meta property="og:image" content="resources/profile_picture">
+  <meta property="og:url" content="https://vitorialisboa.com/">
+  <meta property="og:type" content="website">
+  <title>Vitória Lisboa | Psicóloga Clínica</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
@@ -17,9 +24,9 @@
     }
 
     body {
-      font-family: 'Roboto Flex', sans-serif;
+      font-family: 'Roboto Flex', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: linear-gradient(#0a1a2f, #0e2240);
-      background-image: url("background.webp");
+      background-image: url("resources/background.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -122,7 +129,7 @@
 
     h1 {
       margin: 0.5rem 0 0;
-      font-family: 'Atkinson Hyperlegible Mono', monospace;
+      font-family: 'Atkinson Hyperlegible Mono', 'Courier New', Courier, monospace;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -159,7 +166,7 @@
       border: 1px solid #aad9f472;
       border-radius: 10px;
       font-size: 1rem;
-      font-family: 'Atkinson Hyperlegible Mono', monospace;
+      font-family: 'Atkinson Hyperlegible Mono', 'Courier New', Courier, monospace;
       font-weight: 700;
       cursor: pointer;
       text-decoration: none;
@@ -215,12 +222,14 @@
       <img 
         class="profile-pic"
         alt="Vitória Lisboa"
-        src="profile_picture.webp" />
+        src="resources/profile_picture.webp"
+        width="120"
+        height="120" />
     </div>
     <h1>Vitória Lisboa</h1>
     <p class="quote">Psicóloga Clínica e da Saúde</p>
     <p class="info">Psicóloga CRP 11/09635</p>
-    <a href="https://calendly.com/vitorialisboapsi/30min" target="_blank" class="btn">
+    <a href="https://calendly.com/vitorialisboapsi/atendimento" target="_blank" class="btn">
       <span class="material-symbols-outlined">event</span>
       agende uma sessão
     </a>
